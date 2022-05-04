@@ -1,0 +1,3 @@
+{'Name': 'suraj', 'Mobile Number': '66', 'Patient Floor': '3', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
+{'Name': 'hiten', 'Mobile Number': '66', 'Patient Floor': '3', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
+{'Name': 'suresh', 'Mobile Number': '99', 'Patient Floor': '4', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
