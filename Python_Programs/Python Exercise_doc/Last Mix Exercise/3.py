@@ -8,8 +8,8 @@ split_string = string_val.split()
 
 size = len(split_string)
 
-for i in range(size-1, -1, -1):
+for i in range(size - 1, -1, -1):
     # print(i)
-    print(split_string[i].title(),end=" ")
+    print(split_string[i].title(), end=" ")
 # split_string.reverse()
 # print(split_string)

@@ -5,8 +5,6 @@ user doesn't fall back under. Use custom exception and let user know about resul
 2.If user is Male.
 3. If user family member is less than 5. """
 
-import re
-
 
 class OfferIsApplicable(Exception):
 

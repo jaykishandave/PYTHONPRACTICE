@@ -1,5 +1,3 @@
-
-
 name = input("Student name is")
 maths = int(input("Enter the marks for maths:--"))
 sci = int(input("Enter the marks for maths:--"))
@@ -22,5 +20,3 @@ elif 60 <= per < 70:
     print(name + "You got First Class")
 elif per >= 70:
     print(name + "You got Distinction Class")
-
-

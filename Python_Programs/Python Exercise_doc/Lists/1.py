@@ -11,5 +11,5 @@ for i in test_list:
     else:
 
         list_odd.append(i)
-print("Even numbsers:--", list_even, end="")
+print("Even numbers:--", list_even, end="")
 print("Odd numbsers:--", list_odd, end="")

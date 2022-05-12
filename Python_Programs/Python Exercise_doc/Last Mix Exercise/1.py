@@ -15,7 +15,7 @@ def pattern_fun(no):
         for j in range(0, sp):
             print(" ", end="")
         sp = sp - 1
-        for k in range(0, i+1 ):
+        for k in range(0, i + 1):
             print("* ", end="")
         print("")
 

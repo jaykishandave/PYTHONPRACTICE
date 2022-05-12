@@ -17,7 +17,7 @@ def product_pelindrome_fun(no1, no2):
         rev = rev * 10 + ans
         temp = temp // 10
     if rev == prod:
-        print("number",prod,"is greatest palindrome")
+        print("number", prod, "is greatest palindrome")
     else:
         print("Number is not palindrome")
 

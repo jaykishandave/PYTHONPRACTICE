@@ -29,7 +29,6 @@ class library_management_fun:
             print("Success, You have added new book:", add_book)
             print("Available books are:--", self.library)
 
-
     def return_lend_book_fun(self):
         return_book = input("Please enter the book name to return in the list:--").lower()
         for i in range(0, self.size_library):

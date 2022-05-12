@@ -1,12 +1,10 @@
-import json
-import re
-
 floors = {'0': 'Cardiology', '1': 'Oncology', '2': 'Orthopaedic', '3': 'Ophthalmology', '4': 'General'}
 problems = {'Cardiology': ['Heart', 'Blood Pressure', 'Cholesterol', 'Chest pain'],
             'Ophthalmology': ['Lasik', 'Loss of vision', 'Color blindness', 'Change in vision'],
             'Orthopaedic': ['Fracture', 'Arthritis', 'Back pain', 'Spine problem', 'Shoulder pain',
                             'Joint replacement'],
-            'Oncology': ['Tumour', 'Chemo', 'Radiation'], 'General': ['Cough', 'Fever', 'Headache']}
+            'Oncology': ['Tumour', 'Chemo', 'Radiation'],
+            'General': ['Cough', 'Fever', 'Headache']}
 
 patient_details = {}
 

@@ -3,7 +3,6 @@ import re
 list_pass = []
 invalid_pass = []
 
-
 password = input("Please enter the password:--")
 
 

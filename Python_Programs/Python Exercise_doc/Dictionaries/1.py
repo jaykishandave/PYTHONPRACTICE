@@ -2,10 +2,10 @@
   Input:-
   [2, 3, 44, 55, 33, 111, 1010, 1, 4, 66, 8080, 121, 2020]
   Output:
-  1 Digit numbers :- 2 3 1 4
-  2 Digit numbers :- 44 55 33 66
-  3 Digit numbers :- 111 121
-  4 Digit numbers : 1010 8080 2020
+  1-Digit numbers :- 2 3 1 4
+  2-Digit numbers :- 44 55 33 66
+  3-Digit numbers :- 111 121
+  4-Digit numbers : 1010 8080 2020
 """
 
 list1 = [2, 3, 44, 55, 33, 111, 1010, 1, 4, 66, 8080, 121, 2020]

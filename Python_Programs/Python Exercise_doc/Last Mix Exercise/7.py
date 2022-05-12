@@ -9,7 +9,7 @@ median_val = 1
 def findMedian(li, len_size):
     global median_val
     li.sort()
-    print("Sorted list is ",li)
+    print("Sorted list is ", li)
     if len_size % 2 != 0:
         median_val = li[int(len_size / 2)]
         return median_val

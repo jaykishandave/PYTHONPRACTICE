@@ -1,3 +1,8 @@
 {'Name': 'suraj', 'Mobile Number': '66', 'Patient Floor': '3', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
 {'Name': 'hiten', 'Mobile Number': '66', 'Patient Floor': '3', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
 {'Name': 'suresh', 'Mobile Number': '99', 'Patient Floor': '4', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
+{'Name': 'tom', 'Mobile Number': '55', 'Patient Floor': '3', 'Department': 'Ophthalmology', 'patient Disease': 'Lasik'}
+{'Name': 'Papper', 'Mobile Number': '66', 'Patient Floor': '0', 'Department': 'Cardiology', 'patient Disease': 'Heart'}
+{'Name': 'Harry', 'Mobile Number': '66', 'Patient Floor': '4', 'Department': 'Cardiology', 'patient Disease': 'Heart'}
+{'Name': 'john', 'Mobile Number': '66', 'Patient Floor': '4', 'Department': 'Cardiology', 'patient Disease': 'Heart'}
+{'Name': 'John', 'Mobile Number': '88', 'Patient Floor': '4', 'Department': 'Cardiology', 'patient Disease': 'Heart'}
