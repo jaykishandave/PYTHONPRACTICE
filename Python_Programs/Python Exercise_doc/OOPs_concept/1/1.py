@@ -32,7 +32,7 @@ class calculator(Exception):
 
 
 cal = calculator()
-
+flag = False
 while True:
 
     print("1: Add")
@@ -41,30 +41,41 @@ while True:
     print("4: Divide")
     print("5: Exit")
 
-    ch = int(input("Select operation: "))
+    ch = input("Select operation: ")
 
     if ch == 5:
         print("TATA Good Bye.......")
         break
-
-    a = int(input("Enter the Value of a:--"))
-    b = int(input("Enter the value of b:--"))
-
-    if ch == 1:
+    if ch == "1":
+        a = int(input("Enter the Value of a:--"))
+        b = int(input("Enter the value of b:--"))
         cal.add_fun(a, b)
-    elif ch == 2:
+    elif ch == "2":
+        a = int(input("Enter the Value of a:--"))
+        b = int(input("Enter the value of b:--"))
         cal.sub_fun(a, b)
-    elif ch == 3:
+    elif ch == "3":
+        a = int(input("Enter the Value of a:--"))
+        b = int(input("Enter the value of b:--"))
         cal.mul_fun(a, b)
-    elif ch == 4:
+    elif ch == "4":
+        a = int(input("Enter the Value of a:--"))
+        b = int(input("Enter the value of b:--"))
         cal.div_fun(a, b)
 
     else:
         print("Invalid Input")
 
-    another_entry = input("Would you like to continue? Y/N:--").upper()
-    if another_entry == "Y":
-        pass
-    else:
-        print("TATA Good Bye.......")
-        break
+        while True:
+            another_entry = input("Would you like to continue? Y/N:--").upper()
+            if another_entry == "Y":
+                pass
+                break
+            elif another_entry == "N":
+                flag = True
+                print("Thank you for using the services.......")
+                break
+            else:
+                print("Please Enter the valid input.....")
+        if flag:
+            break

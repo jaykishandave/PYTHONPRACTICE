@@ -35,7 +35,6 @@ for i in range(0, size):
     name = re.findall("^[A-Za-z]+", sp_data[i])
     other = re.findall(r"[\+]\w.+", sp_data[i])
     records = dict(zip(name, other))
-    di1
     print(records)
 
 # print(name)

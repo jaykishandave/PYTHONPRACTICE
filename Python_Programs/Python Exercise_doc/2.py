@@ -13,4 +13,5 @@ def return_key(val):
     return "Key Not Found"
 
 
+print("Success")
 return_key("Rupee")

@@ -8,31 +8,38 @@ from restaurant_salary import *
 
 res = restaurant_salary()
 
+flag = False
 while True:
-
     print("1: Chef's salary")
     print("2: Waiter's salary")
     print("3: Cleaner's salary")
     print("4: Exit")
 
-    ch = int(input("Select operation: "))
+    ch = input("Select operation: ")
 
-    if ch == 4:
-        print("TATA Good Bye Khatam.......")
+    if ch == "4":
+        print("Thank you for using the services.......")
         break
-    if ch == 1:
+    if ch == "1":
         res.chef_salary_fun()
-    elif ch == 2:
+    elif ch == "2":
         res.waiter_salary_fun()
-    elif ch == 3:
+    elif ch == "3":
         res.chef_salary_fun()
 
     else:
         print("Invalid Input")
 
-    another_entry = input("Would you like to continue? Y/N:--").upper()
-    if another_entry == "Y":
-        pass
-    else:
-        print("TATA Good Bye Khatam.......")
+    while True:
+        another_entry = input("Would you like to continue? Y/N:--").upper()
+        if another_entry == "Y":
+            pass
+            break
+        elif another_entry == "N":
+            flag = True
+            print("Thank you for using the services.......")
+            break
+        else:
+            print("Please Enter the valid input.....")
+    if flag:
         break

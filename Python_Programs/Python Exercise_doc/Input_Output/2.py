@@ -28,5 +28,3 @@ with open("json_file.json", "r+") as file:
 
         #     Print the list of employee name who are have knowledge of Python and Java.
     print("Print the list of employee name who are have knowledge of Python and Java.")
-    # for i in json_obj["Employees"]:
-    #     if 25 < i["Employee Age"] < 45:

@@ -6,7 +6,10 @@ set1 = set()
 set2 = set()
 set3 = set()
 
-num = int(input("Enter the number:--"))
+try:
+    num = int(input("Enter the number:--"))
+except ValueError:
+    print("Enter valid integer! Please try again ...")
 
 
 def set_val_fun(no):

@@ -6,28 +6,30 @@ cube_list = []
 
 li = []
 
-num = int(input("Enter the number:--"))
+try:
+    num = int(input("Enter the number:--"))
+except ValueError:
+    print("Enter valid integer! Please try again ...")
 
 
 def compare_fun(no):
-    for i in range(0, no):
-        square_val = i ** 2
-        for j in range(0, no):
-            cube_val = j ** 3
+    try:
+        if no > 0:
+            for i in range(0, no):
+                square_val = i ** 2
+                for j in range(0, no):
+                    cube_val = j ** 3
+                    if square_val == cube_val:
+                        print("Square of", i, "is:-", square_val, " and Cube of ", j, "is:--", cube_val)
+                        square_list.append(i)
+                        cube_list.append(j)
+        else:
+            raise ValueError("Enter the value greater then zero ! Please try again ...")
+    except ValueError as ve:
+        print(ve)
 
-            if square_val == cube_val:
-                print("Square of", i, "is:-", square_val, " and Cube of ", j, "is:--", cube_val)
-                square_list.append(i)
-                cube_list.append(j)
-
-                # li.append(i)
-                # li.append(j)
-                #
-                # t1 = tuple(li)
     size = len(square_list)
-
     nums = [(square_list[x], cube_list[x]) for x in range(0, size)]
-
     print(nums)
 
 

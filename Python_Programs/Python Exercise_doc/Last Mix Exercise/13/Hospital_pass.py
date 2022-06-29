@@ -81,8 +81,8 @@ class hospital_gate(Exception):
                 if search_patient_name in read_file:
                     for num, line in enumerate(read_line, 0):
                         if search_patient_name in line and "Patient Floor" in line:
-                            get_patient_floor = line.split()[-6].strip()
-                            print("\u001b[42m \u001b[1m", search_patient_name, "is on ", get_patient_floor, "floor "
+                            get_patient_floor = line.split()[-6].strip()[-3]
+                            print("\u001b[42m \u001b[1m", search_patient_name, "is on", get_patient_floor, "floor "
                                                                                                             "\u001b["
                                                                                                             "0m")
                 else:

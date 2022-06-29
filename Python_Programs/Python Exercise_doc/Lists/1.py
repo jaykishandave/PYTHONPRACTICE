@@ -12,4 +12,4 @@ for i in test_list:
 
         list_odd.append(i)
 print("Even numbers:--", list_even, end="")
-print("Odd numbsers:--", list_odd, end="")
+print("Odd numbers:--", list_odd, end="")

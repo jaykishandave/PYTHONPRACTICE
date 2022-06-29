@@ -1,7 +1,10 @@
-"""4.	Write a one line program which outputs the summation of cube of all the odd numbers from 0 to 300 using lambda, map, reduce and filter concept.
-(Refer to https://www.python-course.eu/python3_lambda.php)"""
+"""4.	Write a one line program which outputs the summation of cube of all the odd numbers from 0 to 300 using
+lambda, map, reduce and filter concept. (Refer to https://www.python-course.eu/python3_lambda.php) """
 
-num = int(input("Please enter the number:--"))
+try:
+    num = int(input("Please enter the number:--"))
+except ValueError:
+    print("Enter valid integer! Please try again ...")
 sum_val = 0
 
 

@@ -1,0 +1,44 @@
+1653303300934	geckodriver	INFO	Listening on 127.0.0.1:56702
+1653303303900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56703" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileSjei1J"
+1653303305823	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileSjei1J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56703/devtools/browser/b1d97e3e-f2b2-4512-8663-25aaa18c23d0
+1653303318726	Marionette	INFO	Listening on port 56709
+1653303319293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653303322988	Marionette	INFO	Stopped listening on port 56709
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653305627889	geckodriver	INFO	Listening on 127.0.0.1:57139
+1653305630920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57140" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileKW61Ez"
+1653305631892	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileKW61Ez\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57140/devtools/browser/1d585688-df08-453d-8c78-e82751f1a2fb
+1653305637409	Marionette	INFO	Listening on port 57145
+1653305637875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653305644724	Marionette	INFO	Stopped listening on port 57145
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1653306403353	geckodriver	INFO	Listening on 127.0.0.1:57295
+1653306406731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57296" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileqDlIFp"
+1653306407598	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileqDlIFp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57296/devtools/browser/b6aa8260-55ab-4df7-a469-664de65b5648
+1653306415269	Marionette	INFO	Listening on port 57310
+1653306415392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653306422299	Marionette	INFO	Stopped listening on port 57310
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks

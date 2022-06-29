@@ -1,4 +1,8 @@
-num = int(input("Please enter the number:--"))
+
+try:
+    num = int(input("Please enter the number:--"))
+except ValueError:
+    print("Enter valid integer! Please try again ...")
 f = 0
 s = 1
 

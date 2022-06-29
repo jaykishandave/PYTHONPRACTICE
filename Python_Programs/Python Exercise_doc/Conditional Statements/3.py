@@ -1,8 +1,10 @@
 # 3.	Write a program to perform basic mathematical operations based on user input with validation. User input
 # should be 2 numbers and operation sign (+, -, *, /, //)
-
-num1 = int(input("Enter the number1:--"))
-num2 = int(input("Enter the number2:--"))
+try:
+    num1 = int(input("Enter the number1:--"))
+    num2 = int(input("Enter the number2:--"))
+except ValueError:
+    print("Enter valid integer! Please try again ...")
 
 
 def large_no_fun(no1, no2):

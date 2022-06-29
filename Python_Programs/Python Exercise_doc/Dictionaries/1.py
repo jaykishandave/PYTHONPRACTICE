@@ -16,5 +16,18 @@ dict1 = {}
 for i in range(list_size):
     size = len(str(list1[i]))
     dict1[list1[i]] = size
+for key,value in dict1.items():
+    print(f"{value} Digit number is :{key}")
 
-print(dict1)
+# print(dict1)
+
+# thisdict = [2, 3, 44, 55, 33, 111, 1010, 1, 4, 66, 8080, 121, 2020]
+#
+# p = [x for x in thisdict if x < 10]
+# print("1 Digit Numbers:", p)
+# q = [x for x in thisdict if 10 < x < 100]
+# print("2 Digit Numbers:", q)
+# r = [x for x in thisdict if 100 < x < 1000]
+# print("3 Digit Numbers:", r)
+# s = [x for x in thisdict if 1000 < x < 10000]
+# print("4 Digit Numbers:", s)

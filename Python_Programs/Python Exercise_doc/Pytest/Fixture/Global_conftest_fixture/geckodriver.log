@@ -1,0 +1,19 @@
+1653391897703	geckodriver	INFO	Listening on 127.0.0.1:50741
+1653391900764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50742" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileajjnW6"
+1653391901653	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileajjnW6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50742/devtools/browser/500360f8-e454-40aa-8c74-33a7de2c79ce
+1653391907239	Marionette	INFO	Listening on port 50748
+1653391907749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653391909844	Marionette	INFO	Stopped listening on port 50748
+[Parent 18072, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1653392123021	geckodriver	INFO	Listening on 127.0.0.1:50831
+1653392126065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50832" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofilepgUgbI"
+1653392127302	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofilepgUgbI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50832/devtools/browser/531a1600-6a5e-4a48-9624-82f3900fac79
+1653392132493	Marionette	INFO	Listening on port 50838
+1653392132604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653392137195	Marionette	INFO	Stopped listening on port 50838
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
