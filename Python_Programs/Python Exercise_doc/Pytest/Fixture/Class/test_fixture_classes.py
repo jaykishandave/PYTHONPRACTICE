@@ -9,7 +9,7 @@ def init_chrome_driver(request):
     ch_driver = webdriver.Chrome(executable_path="D:\\Automation\\Chrome Driver\\chromedriver.exe")
     request.cls.driver = ch_driver
     yield
-    ch_driver.close()
+    # ch_driver.close()
 
 
 @pytest.fixture(scope="class")
@@ -17,7 +17,7 @@ def init_firefox_driver(request):
     ff_driver = webdriver.Firefox(executable_path="D:\\Automation\\mozilla\\geckodriver.exe")
     request.cls.driver = ff_driver
     yield
-    ff_driver.close()
+    # ff_driver.close()
 
 
 @pytest.mark.usefixtures("init_chrome_driver")

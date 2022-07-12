@@ -1,0 +1,66 @@
+1656900103927	geckodriver	INFO	Listening on 127.0.0.1:60919
+1656900107094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60920" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileuAEymc"
+1656900109110	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofileuAEymc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60920/devtools/browser/5112ecb3-c32b-4264-a200-bba5334a9f20
+1656900119370	Marionette	INFO	Listening on port 60927
+1656900119701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656900125504	Marionette	INFO	Stopped listening on port 60927
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+1656900564606	geckodriver	INFO	Listening on 127.0.0.1:65318
+1656900567687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65319" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofilemOMEV4"
+1656900568518	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofilemOMEV4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65319/devtools/browser/c921db6b-7fb1-4748-9c50-cc3a3a31fda3
+1656900573486	Marionette	INFO	Listening on port 65324
+1656900573583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656900586747	Marionette	INFO	Stopped listening on port 65324
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+1656900669832	geckodriver	INFO	Listening on 127.0.0.1:65415
+1656900672914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65416" "-no-remote" "-profile" "C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofile5PsPlc"
+1656900673907	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\JAYKIS~1\\AppData\\Local\\Temp\\rust_mozprofile5PsPlc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65416/devtools/browser/8bdfff05-d203-4159-bd10-51329c58e609
+1656900679986	Marionette	INFO	Listening on port 65422
+1656900680403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656900685678	Marionette	INFO	Stopped listening on port 65422
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: Unable to arm timer, the object has been finalized."
+console.error: "Could not load engine wikipedia@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine bing@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+[Parent 20456, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 898: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
